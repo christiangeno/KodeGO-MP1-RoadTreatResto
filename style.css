@@ -37,4 +37,19 @@ body {
 
 .footertext {
     color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+.cards {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cont {
+    padding: 5%;
+}
+
+.card {
+    width: 18rem;
 }
