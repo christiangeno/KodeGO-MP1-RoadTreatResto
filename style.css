@@ -15,7 +15,7 @@ body {
 
 
 .hero {
-    background-image: url(/assets/herocover.jpeg);
+    background-image: url(assets/herocover.jpeg);
     background-size: cover;
     width: 100%;
     height: 70vh;
