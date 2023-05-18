@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <div class="brandlogo">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/roadtreattext-wo.png" alt="roadtreattext logo" width="100%" height="70px">
             </a>
             </div>
@@ -50,9 +50,8 @@
           <div class="card w-100">
             <img src="assets/maindish.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Mains</h5>
-              <p class="card-text">We take pride in offering an exquisite selection of main dishes that will tantalize your taste buds and leave you craving for more. Our culinary team has crafted a diverse menu inspired by both local and international flavors.</p>
-              <a href="#mainscarousel" class="btn btn-primary">Take me there</a>
+              <h5 class="card-title">Mains</h5>              
+              <a href="#maintakemehere" class="btn btn-primary align">Take me there</a>
             </div>
           </div>
         </div>
@@ -61,9 +60,8 @@
             <div class="card w-100">
               <img src="assets/sidedish.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Sides</h5>
-                <p class="card-text">Complementing our main dishes, our side dishes are carefully curated to enhance your dining experience and provide the perfect balance of flavors. These delectable accompaniments are designed to elevate your meal and leave you completely satisfied. </p>
-                <a href="#sidescarousel" class="btn btn-primary">Take me there</a>
+                <h5 class="card-title">Sides</h5>                
+                <a href="#sidetakemehere" class="btn btn-primary">Take me there</a>
               </div>
             </div>
         </div>
@@ -72,9 +70,8 @@
             <div class="card w-100">
               <img src="assets/beverages.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Beverages</h5>
-                <p class="card-text">Quench your thirst and elevate your dining experience with our exceptional selection of beverages. From refreshing classics to innovative creations, our beverage menu is designed to delight and complement your meal perfectly. </p>
-                <a href="#beveragecarousel" class="btn btn-primary">Take me there</a>
+                <h5 class="card-title">Beverages</h5>                
+                <a href="#bevtakemehere" class="btn btn-primary">Take me there</a>
               </div>
             </div>
         </div>      
@@ -83,10 +80,15 @@
       <br>
 
       <!-- Mains -->
-      <section class="container mains">
+      <section class="container" id="maintakemehere">
         <div class="text-center bg-dark text-white">
             <h3 class="pad">Mains</h3>
         </div>
+        <div>
+          <p class="text-center">We take pride in offering an exquisite selection of main dishes that will tantalize your taste buds and leave you craving for more. Our culinary team has crafted a diverse menu inspired by both local and international flavors.</p>
+        </div>
+
+
         <div id="mainscarousel" class="carousel carousel slide">
 
             <div class="carousel-inner ">
@@ -136,10 +138,12 @@
 <br>
 
           <!-- Sides -->
-          <section class="container mains">
+          <section class="container" id="sidetakemehere">
             <div class="text-center bg-dark text-white">
                 <h3 class="pad">Sides</h3>
             </div>
+            <div>
+              <p class="text-center">Complementing our main dishes, our side dishes are carefully curated to enhance your dining experience and provide the perfect balance of flavors. These delectable accompaniments are designed to elevate your meal and leave you completely satisfied. </p>            </div>
             <div id="sidescarousel" class="carousel carousel slide">
 
                 <div class="carousel-inner">
@@ -179,10 +183,12 @@
           <br>
 
           <!-- Beverages -->
-          <section class="container mains">
+          <section class="container" id="bevtakemehere">
             <div class="text-center bg-dark text-white">
                 <h3 class="pad">Beverages</h3>
             </div>
+            <div>
+              <p class="text-center">Quench your thirst and elevate your dining experience with our exceptional selection of beverages. From refreshing classics to innovative creations, our beverage menu is designed to delight and complement your meal perfectly. </p>            </div>
             <div id="beveragecarousel" class="carousel carousel slide">
 
                 <div class="carousel-inner">
