@@ -48,3 +48,27 @@ body {
 .card {
     width: 18rem;
 }
+
+.pad {
+    padding: 2rem;
+}
+
+
+.carousel-caption {
+
+    color: black;
+    margin: auto;
+}
+
+.contact {
+    padding: 5% 5% 5% 5%;
+    background-color: #f2f2f2;
+}
+
+.contact-top {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+
