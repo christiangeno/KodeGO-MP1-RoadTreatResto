@@ -54,7 +54,7 @@ body {
     width: 18rem;
 }
 
-.footerimg {
-    height: 10%;
-    justify-content: flex-end;
+footer {
+    padding: 1%
 }
+  
