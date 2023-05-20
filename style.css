@@ -38,11 +38,11 @@ body {
 .footertext {
     color: white;
     text-align: center;
-    padding: 1%;
+    padding: 1% 0% 1% 0%;
 }
 
 .cont {
-    padding: 5%;
+    padding: 3%
 }
 
 .card {
