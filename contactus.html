@@ -10,8 +10,8 @@
 </head>
 <body>
 
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <!-- NavBar -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <div class="brandlogo">
             <a class="navbar-brand" href="index.html">
@@ -34,15 +34,18 @@
                     <a class="nav-link" href="contactus.html">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Book Us</a>
+                        <a class="nav-link" href="bookus.html">Book Us</a>
                         </li>
                 </ul>
                 </div>
             </div>
         </div>
-    </nav>
+      </nav>
 
     <section>
+      <div class="container">
+        <img src="assets/contactusbanner.jpg" alt="" width="100%" height="100%">
+      </div>
       <div class="contact container">
         <div class="contact-top">
           <p>Thank you for your interest in contacting Road Treat.</p>
@@ -83,19 +86,11 @@
               <input type="text" class="form-control" id="inputZip" placeholder="1337">
             </div>
             
-            <div class="input-group">
-              <span class="input-group-text">Comments and Suggestions</span>
-              <textarea class="form-control" aria-label="Comments and Suggestions" placeholder="Masarap ang ulam kaso.."></textarea>
+            <div class="mb-3">
+              <label for="Comments and Suggestions" class="form-label">Comments and Suggestions</label>
+              <textarea class="form-control" id="CommentsandSuggestions" rows="3" placeholder="Masarap ang ulam kaso.."></textarea>
             </div>
 
-            <div class="col-12 ">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label consenttext" for="gridCheck">
-                  I consent to submit all the information that I have provided are true.
-                </label>
-              </div>
-            </div>
             <div class="col-12">
               <button type="submit" class="btn btn-primary container">Submit</button>
             </div>
@@ -103,6 +98,7 @@
         </div>
       </div>
 
+      
     </section>
    
 
