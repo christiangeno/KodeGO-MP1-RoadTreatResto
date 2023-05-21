@@ -1,3 +1,8 @@
+html, body {
+    overflow-x: hidden;
+}
+
+
 body {
     background-color: #f2f2f2;
     font-family: 'Roboto', sans-serif;
@@ -33,12 +38,6 @@ body {
     margin-left: 50px;
     width:50%;
     object-fit: cover;
-}
-
-.footertext {
-    color: white;
-    text-align: center;
-    padding: 1% 0% 1% 0%;
 }
 
 .cont {
@@ -78,3 +77,45 @@ body {
     align-items: center;
     justify-content: center;
   }
+
+.card {
+    margin-bottom: 20px;
+  }
+
+
+.footercontent {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+}
+
+
+.footertext {
+    color: white;
+    text-align: center;
+    padding: 1% 0% 1% 0%;
+}
+
+.footerimg {
+    width: 20%;
+    height: 20%;
+}
+
+@media (max-width: 768px) {
+
+    .footercontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px 0px 0px 10px;
+        align-items: center;
+    }
+
+    .footerimg {
+        width: 50%;
+        height: 50%;
+    }
+    
+}
+    

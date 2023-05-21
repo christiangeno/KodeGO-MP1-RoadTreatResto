@@ -13,15 +13,19 @@
      <!-- NavBar -->
      <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
+        <div class="d-flex">
           <div class="brandlogo">
           <a class="navbar-brand" href="index.html">
-              <img src="assets/roadtreattext-wo.png" alt="roadtreattext logo" width="100%" height="70px">
+              <img src="assets/roadtreattext-wo.png" alt="roadtreattext logo" width="90%" height="70px">
           </a>
           </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+            
           <div class="navlinks">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              </button>
+              
               <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                   <li class="nav-item">
@@ -41,8 +45,9 @@
           </div>
       </div>
   </nav>
+  
     <!-- Hero -->
-    <section class="hero-section">
+    <section class="hero-section text-center">
         <div class="row" id="hero">
             <div class="col-12">
               <div class="hero">
@@ -59,67 +64,70 @@
     <br><br>
 
     <!-- Cards -->
-    <section class="row mx-auto container" >
-      <div class="col-4">
-        <div class="card w-100">
-          <img src="assets/products.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Our Products</h5>           
-            <a href="products.html" class="btn btn-primary">Take me there</a>
+    <div class="container">
+      <section class="row mx-auto" >
+        <div class="col-12 col-lg-4">
+          <div class="card w-100">
+            <img src="assets/products.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Our Products</h5>           
+              <a href="products.html" class="btn btn-primary">Take me there</a>
+            </div>
           </div>
         </div>
-      </div>
-    
-      <div class="col-4">
-          <div class="card w-100">
-            <img src="assets/reviews.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Reviews</h5>             
-              <a href="reviews.html" class="btn btn-primary">Take me there</a>
+      
+        <div class="col-12 col-lg-4">
+            <div class="card w-100">
+              <img src="assets/reviews.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Reviews</h5>             
+                <a href="reviews.html" class="btn btn-primary">Take me there</a>
+              </div>
             </div>
-          </div>
-      </div>
+        </div>
 
-      <div class="col-4">
-          <div class="card w-100">
-            <img src="assets/location.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Location</h5>              
-              <a href="#location" class="btn btn-primary">Take me there</a>
+        <div class="col-12 col-lg-4">
+            <div class="card w-100">
+              <img src="assets/location.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Location</h5>              
+                <a href="#location" class="btn btn-primary">Take me there</a>
+              </div>
             </div>
-          </div>
-      </div>
-        
-    </section>
+        </div>
+          
+      </section>
+  </div>
         
     <!-- About Us -->
     <section class="container">
         <div id="about">
             <div class="row">
-              <div class="cont col-5">
-                <br>
+              <div class="cont col-12 col-md-6 p-3">
                 <h2>About Us</h2>
                 <p>At Road Treat Grill and Restaurant, we take pride in providing a unique and delightful dining experience for our customers. Situated on the bustling streets of Solsona, we are a go-to destination for food lovers and travelers alike. Whether you're looking for a quick bite or a satisfying meal, we have something to satisfy every palate.</p>
                 <p>Our menu is carefully crafted to offer a wide range of delectable options that blend traditional flavors with a modern twist. From mouthwatering burgers and sizzling steaks to fresh seafood and flavorful vegetarian dishes, our culinary creations are prepared with the freshest ingredients and served with passion.</p>
                 <p>In addition to our exceptional food and service, Road Treat Grill and Restaurant boasts a vibrant and inviting ambiance. Our stylish and comfortable interior is designed to make your dining experience enjoyable and relaxed, whether you're visiting with friends, family, or colleagues.</p>
                 <p>Whether you're stopping by for a quick lunch, a romantic dinner, or a special celebration, Road Treat Grill and Restaurant is the perfect destination. We invite you to join us on a culinary journey where flavors come alive and memories are made. Come and experience the taste of excellence at Road Treat Grill and Restaurant.</p>
               </div>
-              <div class="cont col-7">
+              <div class="cont col-12 col-md-6">
                 <img src="assets/aboutus.jpg" alt="about us" width="100%" height="100%">
               </div>
             </div>
         </div>
     </section>
 
+
+    <hr>
+
      <!-- Location -->
      <section class="container">
       <div id="location">
           <div class="row">
-            <div class="cont col-9">
+            <div class="cont col-12 col-md-6">
               <img src="assets/locpic.jpg" alt="about us" width="100%" height="100%">
             </div>
-            <div class="cont col-3 justify-content-center">
-              <br><br>
+            <div class="cont col-12 col-md-6 justify-content-center">
               <h2>Road Treat Grill and Restaurant</h2>
               <p>Located in the far eastern part of Ilocos Norte, where people ride to visit the mountains and the see of clouds. There live a restaurant with the best treats for the road trips!</p>
               <p>Address: Brgy. Juan, Solsona, Ilocos Norte</p>
@@ -132,10 +140,11 @@
 
 
   <footer class="bg-dark">
-    <div class="text-white text-center footertext">
-      <h5>Enjoy your road trips with our road treats.</h5>
+    <div class="text-white text-center footercontent">
+      <h5 class="footertext">Enjoy your road trips with our road treats.</h5>      
+      <img src="assets/roadtreattext-wo.png" alt="" class="footerimg">
     </div>
-</footer>
+  </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
